@@ -21,7 +21,7 @@ const Footer = () => {
         })}
       </ul>
 
-      <p>Copyright 2024, todos os direitos reservados</p>
+      <p>Desenvolvido por Guilherme Fontes Campo</p>
     </Footers>
   );
 };

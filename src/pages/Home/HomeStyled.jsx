@@ -3,6 +3,7 @@ import WorldImg from "../../assets/images/Worldmap.png"
 
 export const Main = styled.main`
 
+   
     // Home //
 
     #home {

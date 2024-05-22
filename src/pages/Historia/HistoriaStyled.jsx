@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Main = styled.main`
 
     // About // 
-
     #About {
             display: flex;
             flex-direction: row;
@@ -21,18 +20,21 @@ export const Main = styled.main`
             gap: 20px;
     }
 
-    #video button {
-            background: transparent;
+    #video #button {
+            background-color: #23242E;
             width: 340px; 
+            color: white;
             border: none;
             cursor: pointer;
             font-weight: bold;
-            font-size: 17px;
+            font-size: 15px;
+            height: 40px;
+            border-radius: 50px;
     }
 
-    #video button:hover {
-            color: blue;
-            transtion: all 1s;
+    #video #button:hover {
+            color: yellow;
+            transition: all 1s;
     }
         
     iframe {
@@ -70,6 +72,7 @@ export const Main = styled.main`
         iframe {
             width: 340px;
         }
+        
     }
 `
 
@@ -117,10 +120,14 @@ export const ModalContent = styled.div`
 `
 
 export const ModalButton = styled.button`
+    background-color: transparent;
+    border: none;
     color: white;
     font-size: 30px;
     position: fixed;
     top: 30px;
-    right: -80px;
+    right: 50px;
+    cursor: pointer;
     z-index: 2;
 `
+

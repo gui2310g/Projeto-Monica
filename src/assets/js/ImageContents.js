@@ -25,7 +25,7 @@ import Image4 from "../images/lectures/imagem4.png"
 export const SocialMedias = [
     {
         image: WhatsAppImg,
-        link: 'https://api.whatsapp.com/send/?phone=51997674604&text=Oi+vi+seu+perfil+na+SoulBrasil&type=phone_number&app_absent=0',
+        link: 'https://api.whatsapp.com/send/?phone=5189093991&text=Oi+vi+seu+perfil+no+Website&type=phone_number&app_absent=0',
         alt:  'Whatsapp Imagem',
     },
     {

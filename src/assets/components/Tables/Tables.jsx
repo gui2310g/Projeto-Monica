@@ -4,7 +4,7 @@ import { Section, SmallTable, Tables } from "./TablesStyled.jsx";
 const Table = () => {
   return (
     <>
-      <h1>Quadro de Medalhas</h1>
+      <h1 id="title">Quadro de Medalhas</h1>
       <Section>
         
         <SmallTable>

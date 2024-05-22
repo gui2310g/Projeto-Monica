@@ -1,9 +1,12 @@
 import { Card } from "./HistoryCardStyled.jsx"
 
-const HistoryCard = ({image, description}) => {
+const HistoryCard = ({image, title, description}) => {
     return (
         <Card>
-            <div id="description">
+           
+             
+            <div id="history">
+                <h1>{title}</h1>
                 <p>{description}</p>
             </div>
 

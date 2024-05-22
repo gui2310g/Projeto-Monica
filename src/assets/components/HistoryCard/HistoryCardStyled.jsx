@@ -7,21 +7,30 @@ export const Card = styled.section`
   flex-direction: row;
   justify-content: space-around;
   height: 500px;
+  gap: 20px;
 
-  #description {
+  #history {
+    display: flex;
+    flex-direction: column;
     background-color: green;
     width: 70%;
-    text-align: justify;
+    align-items: center;
     clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%);
-    margin-right: 30px;
-    animation: showdiv 2s;
+    box-sizing: border-box; 
   }
 
-  #description p {
-    width: 75%;
+  #history h1 {
+    margin-top: 20px;
+    animation: showTextandImg 2s;
+  }
+
+  #history p {
+    text-align: justify;
+    width: 100%;
+    max-width: 600px;
     font-weight: bold;
     margin: 50px;
-    animation: showTextandImg 2s;
+   
   }
 
   #image {
@@ -67,13 +76,17 @@ export const Card = styled.section`
     }
   }
 
-  @media screen and (max-width: 1024px) {
-    
+ 
+
+
+  @media screen and (max-width: 1250px) {
+
     flex-direction: column-reverse;
     height: auto;
     width: 100%;
+    gap: 0px;
 
-    #description {
+    #history {
       clip-path: none;
       margin-right: 0px;
       animation: none;
@@ -88,9 +101,6 @@ export const Card = styled.section`
       animation: showTextandImg 1s;
     }
 
-    #description p {
-      margin: 50px auto;
-      animation: showTextandImg 1s;
-    }
+    
   }
 `;

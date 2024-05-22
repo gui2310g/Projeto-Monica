@@ -28,6 +28,7 @@ const History = () => {
           return (
             <HistoryCard
               key={index}
+              title={id.title}
               image={id.image}
               description={id.description}
             />
@@ -42,8 +43,9 @@ const History = () => {
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
+              id="button"
             >
-              Clique aqui para ver o historico esportivo
+              Clique aqui para ver o histórico esportivo
             </button>
 
             {/*modal */}
@@ -59,6 +61,7 @@ const History = () => {
                     onClick={() => {
                       setIsOpen(false);
                     }}
+                    className="close-button"
                   >
                     <IoClose />
                   </ModalButton>
@@ -90,31 +93,6 @@ const History = () => {
               </div>
 
               <div>
-                <h3>Peso</h3>
-                <span>70kg</span>
-              </div>
-
-              <div>
-                <h3>Altura</h3>
-                <span>163 cm</span>
-              </div>
-
-              <div>
-                <h3>Identidade de gênero</h3>
-                <span>Prefiro nao declarar</span>
-              </div>
-
-              <div>
-                <h3>Orientação sexual</h3>
-                <span>Heterossexual</span>
-              </div>
-
-              <div>
-                <h3>Cor de pele</h3>
-                <span>Branco</span>
-              </div>
-
-              <div>
                 <h3>Clube</h3>
                 <span>Gremio Nautico União</span>
               </div>
@@ -122,16 +100,6 @@ const History = () => {
               <div>
                 <h3>Lateralidade</h3>
                 <span>Destro</span>
-              </div>
-
-              <div>
-                <h3>Preparador(a) Físico(a)</h3>
-                <span>Cristiane Vidor</span>
-              </div>
-
-              <div>
-                <h3>Treinador</h3>
-                <span>Eduardo de Vasconcelos Nunes</span>
               </div>
 
               <div>
@@ -151,6 +119,7 @@ const History = () => {
           return (
             <HistoryCard
               key={index}
+              title={id.title}
               image={id.image}
               description={id.description}
             />

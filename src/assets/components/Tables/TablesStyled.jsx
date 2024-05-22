@@ -6,6 +6,7 @@ export const Section = styled.section`
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+
   #medals {
     width: 50px;
   }
