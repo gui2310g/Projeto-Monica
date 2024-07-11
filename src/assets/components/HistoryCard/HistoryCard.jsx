@@ -4,7 +4,6 @@ const HistoryCard = ({image, title, description}) => {
     return (
         <Card>
            
-             
             <div id="history">
                 <h1>{title}</h1>
                 <p>{description}</p>

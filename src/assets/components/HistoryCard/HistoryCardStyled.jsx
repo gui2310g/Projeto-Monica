@@ -17,6 +17,7 @@ export const Card = styled.section`
     align-items: center;
     clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%);
     box-sizing: border-box; 
+    animation: showdiv 2s;
   }
 
   #history h1 {
@@ -30,7 +31,7 @@ export const Card = styled.section`
     max-width: 600px;
     font-weight: bold;
     margin: 50px;
-   
+    animation: showTextandImg 2s;
   }
 
   #image {
@@ -55,6 +56,7 @@ export const Card = styled.section`
 
     100% {
       width: 70%;
+      opacity: 1;
     }
   }
 

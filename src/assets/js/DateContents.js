@@ -1,35 +1,10 @@
 
-
 export const Dates = [
     {
-        date: "16",
-        month: "Maio",
-        name: "2024 American Championships",
-        description: "16 a 20 de Maio - São Paulo"
-    },
-    {
-        date: "23",
-        month: "Maio",
-        name: "Copa do Mundo de Paraesgrima 2024 Brasil",
-        description: "23 a 26 de Maio - São Paulo"
-    },
-    {
-        date: "24",
-        month: "Junho",
-        name: "Campeonato Brasileiro de Paraesgrima",
-        description: "24 a 27 de Junho - São Paulo"
-    },
-    {
-        date: "04",
-        month: "Julho",
-        name: "Copa do Mundo de Paraesgrima 2024 Polonia",
-        description: "04 a 07 de Julho, Varsóvia"
-    },
-    {
-        date: "03",
-        month: "Setembro",
+        date: "28",
+        month: "Agosto",
         name: "Paralímpiadas 2024",
-        description: "03 a 07 de Setembro - Paris"
+        description: "23 a 08 de Setembro - Paris"
     },
     {
         date: "02",
