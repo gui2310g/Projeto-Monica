@@ -1,7 +1,7 @@
 
 export const Dates = [
     {
-        date: "28",
+        date: "03",
         month: "Agosto",
         name: "Paralímpiadas 2024",
         description: "23 a 08 de Setembro - Paris"
